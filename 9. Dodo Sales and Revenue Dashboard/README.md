@@ -7,10 +7,11 @@ This project analyzes two datasets from a SaaS payments platform:-
 * A user funnel dataset tracking visit → signup → onboarding → activation → conversion events.
 * Using SQL, Excel, and Power BI, I built an end-to-end analytical workflow to uncover revenue trends, identify profitable markets, evaluate product-level performance, and diagnose user funnel drop-offs.
 
-## 1.2 Objectives
+## 1.2 Objectives: 
+Stakeholder wants to know
 * Analyze sales, revenue, discount impact, and profitability.
 * Identify top products and market profitability.
-* Build a user funnel.
+* Build a user funnel to find the bottle neck
 * Build an interactive Power BI dashboard.
 * Deliver actionable recommendations
 
@@ -210,21 +211,21 @@ Once users activate, many still need stronger incentives to convert.
 
 ## 1.9 Recommended Actions (High Impact)
 1. Streamline the Signup Process
---> Reduce required fields
---> Eliminate unnecessary verification steps
---> Test form performance and error logs
+   * Reduce required fields
+   * Eliminate unnecessary verification steps
+   * Test form performance and error logs
 2. Improve Post-Signup Guidance
---> Auto-login immediately after signup (if possible)
---> Provide a clear onboarding CTA
---> Improve email deliverability & confirmation flow
+   * Auto-login immediately after signup (if possible)
+   * Provide a clear onboarding CTA
+   * Improve email deliverability & confirmation flow
 3. Redesign Onboarding to Show Value Faster
---> Add guided tours, tooltips, checklists
---> Trigger personalized onboarding depending on user profile
---> Highlight quick wins early
+   * Add guided tours, tooltips, checklists
+   * Trigger personalized onboarding depending on user profile
+   * Highlight quick wins early
 4. Strengthen Conversion Drivers
---> Offer time-limited incentives or feature previews
---> Highlight success metrics, case studies, ROI
---> Trigger targeted in-app messages before trial expiration
+   * Offer time-limited incentives or feature previews
+   * Highlight success metrics, case studies, ROI
+   * Trigger targeted in-app messages before trial expiration
 
 ## 2.0 Dodo Payments Insights Reports
 * Date Format: The Date column is in General data type and follows two different patterns: MM-DD-YYYY and DD/MM/YYYY. It should be standardized into one single format for better understanding and consistency.
@@ -238,5 +239,6 @@ Note: The Higher the discount higher the loss.
 * Product Profitability: Product Alchemy, under the SMB Segment, is the only product that is profitable in Mexico and France. Try to upsell this product in other countries, too.
 
 * Customer Feedback: Frequently take feedback based on the industry, sector, and country. This will help the company to make product modifications when required.
+
 
 * Additional Data Insights: If I had more data to analyze, then I would track: Monthly Active Users( MAU) per product to measure adoption and retention rates Churn rate User activity Feature usage Repeat purchase rates Customer engagement with the product Most frequent support ticket After-sales feedback
